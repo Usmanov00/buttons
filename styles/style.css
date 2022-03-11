@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+body{
+    font-family: 'League Spartan', sans-serif;
+    background-color: #000444;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px 0;
+
+}
+
+.row{
+    display: flex;
+    padding: 0 -15px;
+    flex-wrap: wrap;
+}
+
+.box{
+    border-radius: 10px;
+}
+
+.col-2{
+    width: 20%;
+    padding: 0 15px;
+}
+
+.mini-box{
+    height: 100px;
+    background-color: #5f28b2;
+    margin-bottom: 15px;
+
+}
+
+.mini-box.show{
+    background-color: #03bdf6;
+}
+
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.changeBox{
+    width: 300px;
+    height: 300px;
+    background-color: #b3a1f1;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+.red{
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.blue{
+    background-color: blue;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.oval{
+    background-color: #b3a1f1;
+    color: #fff;
+    border-radius: 5px;
+}
+.changeBox.changeRed{
+    background-color: red;
+
+
+}
+.changeBox.changeBlue{
+    background-color: blue;
+
+}
+
+button{
+    width: 100px;
+    height: 30px;
+}
+
+.changeBox.changeOval{
+    border-radius: 180px 5px 180px 5px;
+
+
+
+}
+
+.buttonCenter{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+
+.text{
+    width: 200px;
+    height: 30px;
+    border: none;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.pop-up{
+    border-radius: 5px;
+    background-color: #b3a1f1;
+    color: #fff;
+}
+
+.clear{
+    border-radius: 5px;
+    background-color: #b3a1f1;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
